@@ -64,7 +64,7 @@ public class Robot extends TimedRobot {
 
   private double sumErrors, lastError, lastTime;
 
-  private static final double kP = 0.6, kD = 0.15, kI = 0.00006;
+  private static final double kP = 0.5, kD = 0.13, kI = 0.000006;
 
   /**
    * This function is run when the robot is first started up and should be used for any
